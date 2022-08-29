@@ -193,6 +193,10 @@ a {
     align-items: center;
 }
 
+.navbar_logo {
+    width: 227px;
+}
+
 .navbar_logo a {
     width: 100%;
     height: 100%;
@@ -317,6 +321,10 @@ section,
     display: flex;
     justify-content: center;
     margin: 0 0 32px 0;
+}
+
+.section_lettering img {
+    max-width: 210px;
 }
 
 .home .section_title {
