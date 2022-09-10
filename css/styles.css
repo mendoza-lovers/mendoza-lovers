@@ -658,15 +658,18 @@ section,
 
 @media screen and (min-width: 1600px) {
 
-    .section_h .section_img_container,
-    .section_v .section_img_container  {
+    .section_h .section_img_container {
         height: 650px;
     } 
+
+    .section_v .section_img_container {
+        max-width: 500px;
+    }
 
     .mendoza_text {
         max-width: 800px;
     }
-    
+
 }
 
 
