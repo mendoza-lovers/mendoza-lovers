@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Assistant:wght@400;700&display=swap" rel="stylesheet">
-    <link href="fontawesome/css/all.min.css" rel="stylesheet">    
+    <link href="fontawesome/css/all.min.css" rel="stylesheet"> 
+    <link href="swiper/swiper-bundle.min.css" rel="stylesheet">   
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -56,7 +57,44 @@
                 <a class="navbar_link contact_link" href="#contact">CONTATO</a>
             </nav>
         </div>
-        <header class="hero bg--red-wine">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Slider wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <figure>
+                        <img class="section_img" src="img/slider/slider_1.jpg">
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <figure>
+                        <img class="section_img" src="img/slider/slider_2.jpg">
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <figure>
+                        <img class="section_img" src="img/slider/slider_3.jpg">
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <figure>
+                        <img class="section_img" src="img/slider/slider_4.jpg">
+                    </figure>
+                </div>
+                <div class="swiper-slide">
+                    <figure>
+                        <img class="section_img" src="img/slider/slider_5.jpg">
+                    </figure>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!-- <header class="hero bg--red-wine">
             <div class="bg_patch"></div>
             <div class="hero_video">
                 <video autoplay loop muted preload="auto" poster="img/hero.jpg">
@@ -68,7 +106,7 @@
             <div class="hero_slogan">
                 <h2 class="hero_title">DESCUBRIR <span class="fw_bold">MENDOZA</span></h2>
             </div>
-        </header>
+        </header> -->
         <section id="about" class="section_v">
             <div class="section_wrapper">
                 <article class="section_article article--left">
@@ -224,6 +262,7 @@
         </a>
     </div>
         
+    <script src="swiper/swiper-bundle.min.js"></script>
     <script src="js/scripts.js"></script>
     
 </body>
