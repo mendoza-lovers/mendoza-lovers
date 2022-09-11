@@ -843,6 +843,11 @@ section,
         display: none;
     }
 
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
     .hero_video {
         padding: 0 40px;
     }
