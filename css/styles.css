@@ -680,6 +680,8 @@ section,
     object-position: center;
 }
 
+
+
 @media screen and (min-width: 1600px) {
 
     .section_h .section_img_container {
@@ -815,6 +817,11 @@ section,
         display: none;
     }
 
+    .swiper,
+    .swiper-slide figure {
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -841,6 +848,11 @@ section,
 
     .navbar_menu.menu--muted {
         display: none;
+    }
+
+    .swiper,
+    .swiper-slide figure {
+        height: 175px;
     }
 
     .swiper-button-prev,
