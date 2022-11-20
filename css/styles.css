@@ -670,6 +670,55 @@ section,
     object-position: center;
 }
 
+.ad_01 {
+    width: 100%;
+    padding: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad_01 .ad_discount, 
+.ad_01 .ad_category,
+.ad_01 .ad_btn {
+    flex: 0 0 auto;
+    font-family: var(--ff-display-font);
+} 
+
+.ad_01 .ad_discount {
+    font-size: var(--36px);
+    font-weight: 700;
+}
+
+.ad_01 .ad_category {
+    margin: 0 24px;
+    padding: 9px 16px 7px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #888888;
+}
+
+.ad_01 .ad_btn {
+    flex: 0 0 auto;
+    font-size: var(--18px);
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: var(--c-red-wine);
+}
+
+.ad_01 .ad_btn a {
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
 
 
 @media screen and (min-width: 1600px) {
@@ -925,6 +974,15 @@ section,
     .contact_btn {
         height: 48px;
         margin: 0 0 16px 0;
+    }
+
+    .ad_01 {
+        padding: 16px 16px 22px 16px;
+        flex-direction: column;
+    }
+
+    .ad_01 .ad_category {
+        margin: 8px 0 12px 0;
     }
 
 }
