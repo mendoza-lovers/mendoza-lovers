@@ -786,10 +786,6 @@ section,
         padding: 0;
     }
 
-    .ad_slide {
-        display: none;
-    }
-
 }
 
 @media screen and (max-width: 900px) {
