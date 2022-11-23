@@ -719,6 +719,10 @@ section,
     color: #ffffff;
 }
 
+.ad_01_slide img {
+    object-position: top;
+}
+
 
 
 @media screen and (min-width: 1600px) {
@@ -780,6 +784,10 @@ section,
 
     .mendoza_text {
         padding: 0;
+    }
+
+    .ad_slide {
+        display: none;
     }
 
 }
